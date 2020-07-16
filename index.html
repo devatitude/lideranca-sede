@@ -19,9 +19,7 @@
   <!-- FLICKITY DRAG SWIPE CAROULSEL FREESCROLL -->
   <link rel="stylesheet" href="css/style-flickity.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.css">
-  <!-- HEAD SCRIPTS -->
-  <script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/AABAA0BF-7604-A24A-B7C1-C0131CAFEC30/main.js" charset="UTF-8"></script><script data-search-pseudo-elements defer src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.min.js" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.24.1/feather.min.js" crossorigin="anonymous"></script>
+  
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-148377615-1"></script>
   <script>
@@ -325,6 +323,9 @@
   -------------------------------------- FINAL DO TEMPLATE
   --------------------------------------
   -->
+  <!-- HEAD SCRIPTS -->
+  <script data-search-pseudo-elements defer src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.min.js" crossorigin="anonymous"></script>
+
   <script src="https://code.jquery.com/jquery-3.4.1.min.js" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
   <script src="https://themes.startbootstrap.com/sb-ui-kit-pro/js/scripts.js"></script>
@@ -339,35 +340,6 @@
   
   <!-- FLICKITY DRAG SWIPE CAROULSEL FREESCROLL -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.pkgd.js"></script>
-  
-  <!--  SCRIPTS Scroll -->
-  <script>
-    $(document).ready(function(){
-      // Add smooth scrolling to all links
-      $("a").on('click', function(event) {
-    
-        // Make sure this.hash has a value before overriding default behavior
-        if (this.hash !== "") {
-          // Prevent default anchor click behavior
-          event.preventDefault();
-    
-          // Store hash
-          var hash = this.hash;
-    
-          // Using jQuery's animate() method to add smooth page scroll
-          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-          $('html, body').animate({
-            scrollTop: $(hash).offset().top
-          }, 300, function(){
-       
-            // Add hash (#) to URL when done scrolling (default click behavior)
-            window.location.hash = hash;
-          });
-        } // End if
-      });
-    });
-    </script>
-
   <!--  SCRIPT scrolljs 
   <script type="text/javascript" src="js/jquery.scrollbar.js"></script>
   <script type="text/javascript">
